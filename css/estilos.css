@@ -1,0 +1,341 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#contacto {
+    background-image: url(../images/fondo-contacto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: #E20000;
+}
+
+p {
+    color: #6A6A6A;
+}
+
+.nav-link, .nav-item {
+    color: black;
+    border: 1px solid transparent;
+}
+
+footer, footer a {
+    color: white;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+footer .fa-linkedin-in {
+    color: #ff4a49;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+
+.fab.fa-github {
+    font-size: 28px;
+    color: white;
+}
+
+nav ul {
+    justify-content: space-evenly;
+    width: 50%;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.nav-item:hover {
+    border: 1px solid #d80000;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: black !important;
+    text-decoration: none;
+}
+
+.btn.btn-rojo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 40px;
+    background-color: #d80000;
+    color: white;
+    padding: 5px 20px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.btn {
+    background-color: white;
+    border-radius: 40px;
+    padding: 1px 20px;
+}
+
+.fab.fa-whatsapp {
+    text-align: center;
+    color: white;
+    background-color: #370a6d;
+    width: 85px;
+    height: 80px;
+    font-size: 40px;
+    padding-top: 10px;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+}
+
+.mail {
+    text-decoration: none;
+}
+
+#proyectos {
+    background: url(../images/Artboard\ 1\ copia\ 3\ copy\ 9.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gradiente {
+    background-image: linear-gradient(to right, #8c0000, #fe0000);
+}
+
+.gradiente h2 {
+    color: white;
+    padding: 10px 0px 10px 30px;
+    justify-content: start;
+    font-size: 16px;
+}
+
+.col-md-4.boxes.shadow {
+    border-radius: 20px 20px 20px 20px;
+    margin: 0px 5px;
+}
+
+.navbar-toggler-icon, i {
+    color: #e20000;
+}
+
+.fas.fa-download {
+    color: white !important;
+}
+
+.navbar.navbar-expand-md.px-0, .navbar-collapse {
+    justify-content: space-between !important;
+}
+
+#proyectos footer a {
+    color: #E20000;
+}
+
+.col-sm-4.col-12.boxes.shadow.px-2 {
+    border-radius: 20px;
+    background-color: transparent;
+    margin-right: 10px;
+}
+
+.fotos {
+    border-radius: 20px 20px 0 0;
+    border: transparent;
+}
+
+.row.card.px-2.py-3 {
+    border: transparent;
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+.row.images {
+    flex-wrap: nowrap;
+    margin: 0px;
+}
+
+.row.card.px-2.py-3 {
+    margin: 0;
+}
+
+.col-sm-4.col-12.boxes.shadow.px-2:hover {
+    box-shadow: 3px 10px 8px rgba(54, 51, 51, 0.418) !important;
+    animation-delay: 0.2s;
+}
+
+#inicio {
+    background-image: url(../images/fondo-contacto.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.cohete {
+    width: 250px;
+}
+
+.cohete:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    transition-delay: 0.5s;
+}
+
+.texto-inicio {
+    color: white;
+    border: 2px solid white;
+    border-radius: 40px;
+    padding: 8px 15px;
+    font-size: 16px;
+}
+
+#sobre-mi {
+    background-image: url(../images/Artboard\ 1\ copia\ 3\ copy\ 9.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.git.col-6.py-2 {
+    font-size: 40px;
+    color: #E20000;
+}
+
+.boton.btn.btn-rojo {
+    padding: 10px 20px;
+}
+
+.container.gradiente-rojo {
+    background-image: linear-gradient(to top right, #9f0000, #fb0000);
+    background-size: 100%;
+}
+
+.card.my-3, .img-fluid.mx-auto {
+    border-radius: 20px !important;
+}
+
+h6 {
+    color: #282828;
+}
+
+h2 {
+    color: white;
+}
+
+.fas.fa-comment-alt {
+    color: #ffffff;
+    font-size: 70px;
+    margin: 30px;
+}
+
+.col-sm-5.col-10.mx-auto.card.shadow.my-5 {
+    border-radius: 20px;
+}
+
+.fas.fa-star {
+    color: #ffffff;
+    font-size: 70px;
+    margin: 30px;
+}
+
+.fas.fa-briefcase {
+    color: #370a6d;
+}
+
+.fas.fa-laptop-code {
+    color: #370a6d;
+    font-size: 60px;
+    padding: 20px;
+}
+
+input {
+    border: none !important;
+}
+
+@media (max-width: 576px) {
+    footer {
+        display: block !important;
+        text-align: center !important;
+    }
+    nav ul {
+        margin: 0 !important;
+        width: 100% !important;
+    }
+    .form-inline.my-2.my-lg-0 {
+        justify-content: center !important;
+    }
+    .margin-footer {
+        margin-top: 601px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .row.images {
+        display: block;
+        justify-content: center;
+        width: 100%;
+    }
+    footer a {
+        display: block !important;
+        text-align: center !important;
+        color: #e20000;
+    }
+    nav ul {
+        margin: 0 !important;
+        width: 100% !important;
+    }
+    .form-inline.py-4.my-lg-0 {
+        justify-content: center !important;
+    }
+    .margin-footer {
+        margin-top: 316px !important;
+        padding-top: 32px;
+    }
+    #inicio {
+        background-image: url(../images/Artboard\ 1\ copia\ 3\ copy\ 9.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .texto-inicio {
+        border: 1px solid black;
+        border-radius: 40px;
+        color: black;
+        width: 100% !important;
+    }
+    .col-sm-12.col-6.mx-auto.text-center.py-3 {
+        left: 0px;
+    }
+    #contacto {
+        background-image: url(../images/Artboard\ 1\ copia\ 3\ copy\ 9.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .col-sm-6.card.shadow.my-5 {
+        text-align: center !important;
+    }
+    #proyectos {
+        background-image: url(../images/Artboard\ 1\ copia\ 3\ copy\ 9.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .container.mt-5 {
+        text-align: center;
+    }
+    .row.col-sm-6.col-12{
+        text-align: center;
+        margin: auto;
+    }
+    .col-sm-8.my-auto{
+        text-align: center;
+    }
+}
+
