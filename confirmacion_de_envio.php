@@ -1,11 +1,11 @@
 <?php
 $titulo = "contacto";
 $pagina = "contacto";
-include_once("header.php")
-
+include_once("header.php");
 
 
 ?>
+<body>
 
 <main>
     <div class="container">
@@ -23,13 +23,13 @@ include_once("header.php")
     </div>
 </main>
 <footer>
-    <div class="container">
+    <div class="container fixed-bottom">
         <div class="row mt-5">
             <div class="col-sm-3 col-12 text-sm-left text-center pb-sm-0 pb-3">
                 <a href="https://github.com/jasonabril" target="_blank" title="Github">
                     <i class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/jehinson-abril-831550200/" target="_blank" title="Linkedin"><i
-                        class="fab fa-linkedin-in"></i></a>
+                            class="fab fa-linkedin-in"></i></a>
             </div>
             <div class="col-sm-3 col-12 text-sm-left text-center pb-sm-0 pb-3">
                 Sponsor <a href="https://depcsuite.com/cursos/?v=d72a48a8ebd2" target="_blank"
@@ -40,7 +40,7 @@ include_once("header.php")
             </div>
             <div class="col-sm-3 col-12 text-sm-right text-center pb-sm-0 pb-0">
                 <a href="https://wa.link/z00yu0" target="_blank" title="Whatsapp"><i
-                        class="fab fa-whatsapp"></i></a>
+                            class="fab fa-whatsapp"></i></a>
             </div>
 
         </div>
@@ -48,4 +48,3 @@ include_once("header.php")
 </footer>
 </body>
 
-</html>

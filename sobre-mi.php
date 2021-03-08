@@ -24,7 +24,7 @@ include_once("header.php")
                                 title="Linkedin"><i class="fab fa-linkedin-in" style="color: #E20000;"></i></a>
                         </div>
                         <div class="col-6 py-3">
-                            <a href="" class="boton btn btn-rojo">Descargar mi CV <i class="fas fa-download"></i></a>
+                            <a href="images/CV.pdf" class="boton btn btn-rojo">Descargar mi CV <i class="fas fa-download"></i></a>
                         </div>
                     </div>
                     <div class="col-sm-6 mx-auto selfie">

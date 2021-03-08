@@ -11,9 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/estilos.css">
-    </link>
     <script src="https://kit.fontawesome.com/429de3478e.js" crossorigin="anonymous"></script>
-
+    <link rel="icon"  href="/images/icon.png">
     <title><?php echo $titulo;?></title>
 </head>
 
@@ -43,7 +42,7 @@
                     </li>
                 </ul>
                 <div class="form-inline my-2 my-lg-0">
-                    <a href="" class="btn btn-rojo">Descargar mi CV <i class="fas fa-download"></i></a>
+                    <a href="images/CV.pdf" target="_blank" class="btn btn-rojo">Descargar mi CV <i class="fas fa-download"></i></a>
                 </div>
             </div>
         </nav>

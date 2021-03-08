@@ -10,7 +10,7 @@ include_once("header.php");
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center ">
-                    <a href="proyectos.html">
+                    <a href="proyectos.php">
                         <img src="./images/cohete.svg" class="cohete" alt="">
                     </a>
                 </div>
@@ -30,7 +30,7 @@ include_once("header.php");
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center boton-2">
-                    <a href="proyectos.html" class="btn shadow">Conoce mis proyectos</a>
+                    <a href="proyectos.php" class="btn shadow">Conoce mis proyectos</a>
                 </div>
             </div>
         </div>
